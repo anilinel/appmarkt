@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="TR">
+<head>
+
+    <!-- Meta Tags -->
+
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Online süpermarket alışverişi">
+
+    <meta name="keywords" content="online market">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+
+    <title>Appmarkt - Anasayfa</title>
+
+    <!-- Favicon -->
+
+    <link href="assets/img/favicon.png" rel="shortcut icon" type="image/png">
+
+    <!-- Theme Style -->
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <link rel="stylesheet" href="assets/icons/flaticon.css">
+
+    
+    <!-- Owl Stylesheets -->
+
+    <link rel="stylesheet" href="assets/slider/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="assets/slider/owl.theme.default.min.css">
+
+</head>
+
+<body>
+<!-- Header Start -->
+    <section id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-6">
+                    <div class="logo">
+                        <h4> <a href="index.html">Appmarkt</a> </h4>
+                    </div>
+                </div>
+                <div class="col-md-6 col-6">
+                    <div class="navbarmenu">
+                        <ul class="mobile-hidden">
+                            <li>
+                                <a class="active" href="index.html">Anasayfa</a>
+                            </li>
+                            <li>
+                                <a href="hakkimizda.html">Hakkımızda</a>
+                            </li>
+                            <li>
+                                <a href="iletisim.html">İletişim</a>
+                            </li>
+                        </ul>
+                      <span class="webhidden" onclick="openNav()">&#9776;</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="container">
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <div id="myNav" class="overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="overlay-content">
+                          <a href="index.html">Anasayfa</a>
+                          <a href="hakkimizda.html">Hakkımızda</a>
+                          <a href="iletisim.html">İletişim</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="slider-description">
+                        <h2>Online Alışveriş Marketi</h2>
+                        <p>Tüm market alışverişin gün içerisinde kapında <br class="mobile-hidden"> 7/24 istediğin zaman siparişini ver..</p>
+                        <div class="slider-button">
+                            <a class="button-bg" href="javascript:;">
+                                <div><img src="assets/img/google-play-brands.png" alt="Google Play'den indirin"></div>
+                                <div class="pr-3">Google Play <span>İndirin</span> </div>
+                            </a>
+                            <a href="javascript:;">
+                                <div><img src="assets/img/apple-brands.png" alt="Apple Store'dan indirin"></div>
+                                <div class="appstore pr-3">App Store <span>İndirin</span> </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="slider-app">
+                        <img src="assets/img/app_slider.png" alt="appmarkt uygulama">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Header End -->
+<!-- appmarkt widgets start -->
+    <section id="widgets">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="widgets-title">
+                        <h2>Neden Appmarkt?</h2>
+                        <p>Zamanın sizin için değerli olduğunu biliyoruz, <br class="mobile-hidden"> Bu yüzden appmarkt’ le tüm süpermarket ihtiyaçlarınızı kapınıza getiriyoruz.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="widgets-box">
+                        <i class="flaticon-save-money"></i>
+                        <h3>Hesaplı Alışveriş</h3>
+                        <p>Tüm ürünler market fiyatına <br> kapına gelir.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="widgets-box">
+                        <i class="flaticon-shopping-cart-1 pr-4"></i>
+                        <h3>Özenle Seçilir</h3>
+                        <p>Siparişlerinizi özenle seçerek <br> sizlere ulaştırıyoruz.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="widgets-box">
+                        <i class="flaticon-grocery"></i>
+                        <h3>En Taze Ürünler</h3>
+                        <p>En taze ürünleri, en ideal <br> ortamda getiriyoruz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- appmarkt widgets end -->
+<!-- order with app start -->
+<section id="orderapp">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12 mobile-hidden">
+                <div class="formapp">
+                    <img src="assets/img/app_form.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="howworks">
+                    <h2>Nasıl Sipariş Verilir ?</h2>
+                    <ul>
+                        <li> <div class="iconcircle"> <i class="flaticon-down-arrow"> </i> </div>Appmarkt'i indirin. </li>
+                        <li> <div class="iconcircle"> <i class="flaticon-user"> </i> </div>Kolayca Kayıt Olun. </li>
+                        <li> <div class="iconcircle"> <i class="flaticon-shopping-cart"> </i> </div>Ürünlerinizi Sepete Atın. </li>
+                        <li> <div class="iconcircle"> <i class="flaticon-security"> </i> </div>Güvenle Ödeyin. </li>
+                    </ul>
+                    <div class="start-now"> <a href="javascript:;">Şimdi Başla</a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- order with appm end -->
+<!-- categories start -->
+<section id="categories">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-12">
+                <div class="categories-title">
+                    <h4>Kategoriler</h4>
+                    <p>9900+ den fazla ürün ile günün 24 saati ihtiyacın olan ne varsa kapında.</p>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="appcategories">
+                                <img src="assets/img/chips.png" alt="">
+                                <div>Atıştırmalık</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="appcategories">
+                                <img src="assets/img/donuts.png" alt="">
+                                <div>Fırın, Pastane</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="appcategories">
+                                <img src="assets/img/fruits.png" alt="">
+                                <div>Meyve, Sebze</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="appcategories">
+                                <img src="assets/img/meat.png" alt="">
+                                <div>Et, Tavuk Şarküteri</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="appcategories">
+                                <img src="assets/img/protein.png" alt="">
+                                <div>Süt Ürünleri</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="appcategories">
+                                <img src="assets/img/drinks.png" alt="">
+                                <div>İçecekler</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="appcategories">
+                                <img src="assets/img/chips.png" alt="">
+                                <div>Atıştırmalık</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="appcategories">
+                                <img src="assets/img/donuts.png" alt="">
+                                <div>Fırın, Pastane</div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="appcategories">
+                                <img src="assets/img/fruits.png" alt="">
+                                <div>Meyve, Sebze</div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- categories end -->
+<!-- order tracking start -->
+<section id="tracking">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <div class="ordertracking-title">
+                    <h2>Sipariş Takibi</h2>
+                    <p>Appmarkt uygulaması ile siparişinin nerede olduğunu <br class="mobile-hidden"> anlık olarak, haritadan takip et.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="tracking-img">
+                    <img src="assets/img/maps.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- order tracking end -->
+<!-- vegetables and fruit start -->
+<section id="fruiterer">
+    <div class="container">
+        <div class="row mobile-reverse">
+            <div class="col-md-6 col-12">
+                <div class="tracking-img">
+                    <img src="assets/img/fruits_basket.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="ordertracking-title">
+                    <h2>En Taze Meyve ve Sebzeler</h2>
+                    <p>En hijyenik koşullarda el değmeden hazırlanan siparişleriniz, <br class="mobile-hidden"> soğuk hava depolarında muhafaza edilmektedir.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- vegetables and fruit end -->
+<!-- faq start -->
+<section id="faq">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-12">
+                <div class="sssArea">     
+                    <h2>Sıkça Sorulan Sorular</h2>
+                    <p>Appmarkt hakkında en çok merak ettiğiniz soruları sizin için cevapladık</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 mobile-hidden">
+                <div class="faq_img">
+                    <img class="animate-photo" src="assets/img/sss.png" alt="">
+                    <img src="assets/img/app_sss.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="faq-collapse">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Appmarkt nedir?
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Appmarkt, temel ihtiyaçlarınızı dakikalar içinde, gece gündüz, dilediğiniz yere getiren bir akıllı telefon uygulamasıdır. Appmarkt ile siparişlerinizin gelişini haritadan izleyebilir, kaç dakikada size ulaşacağını bilebilirsiniz.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Siparişimi ne zaman teslim alırım ?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Verdiğiniz siparişler ortalama 30 dakika içinde kapınızda.
+                                Sipariş durumunu öğrenmek için, siparişimlerime tıklayın ve
+                                gönderilen sipariş numarasını girin.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Kişisel bilgilerim güvende mi?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Kişisel bilgilerinizi güvende tutmak için en sıkı prosedürleri uyguluyor ve güvenlik önlemlerini alıyoruz. Onayınızla birlikte, kişisel bilgilerinizi KVKK kapsamında korur ve saklarız.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Appmarkt'i hangi saatlerde kullanabilirim?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                               Uygulamamızı gece, gündüz 24 saat boyunca dilediğin zaman kullanabilirsin.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- faq end -->
+<!-- subscribe section start -->
+<section id="subscribe">
+    <div class="container">
+        <div class="w100 position-relative">
+            <div class="subs-bg">
+                <div class="row">
+                    <div class="col-md-6 col-12">
+                        <div class="subscribe-area">
+                            <h2>Bültenimize Abone Olun</h2>
+                            <p>Kampanyalarımızdan ilk sizin haberiniz olsun.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12">
+                        <div class="subscribe-input">
+                            <form class="form-area" action="">
+                                <input type="text" name="subscribe" placeholder="Email Adresinizi Girin"> <button class="subscribe-button"><i class="flaticon-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- subscribe section end -->
+<!-- footer start -->
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <div class="footer-desc">
+                    <h3>Appmarkt</h3>
+                    <p>Market alışverişine ve çok daha fazlasına <br class="mobile-hidden"> kolayca ulaşabileceğin herşey bu uygulamada.</p>
+                    <ul class="social-media">
+                        <li> <a class="facebook" href="javascript:;"> <i class="flaticon-facebook-1"></i> </a> </li>
+                        <li> <a class="instagram" href="javascript:;"> <i class="flaticon-instagram-1"></i> </a> </li>
+                        <li> <a class="twitter" href="javascript:;"> <i class="flaticon-twitter-1"></i> </a> </li>
+                        <li> <a class="linkedin" href="javascript:;"> <i class="flaticon-linkedin-1"></i> </a> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="store-button">
+                    <a href="javascript:;">
+                        <div class="storeimg"><img src="assets/img/google-play-brands-footer.png" alt="Google Play"></div>
+                        <div class="footer-store">Google Play <span>Hemen İndirin</span> </div>
+                    </a>    
+                    <a class="mob-margin" href="javascript:;">
+                        <div class="storeimg"><img src="assets/img/apple-brands-footer.png" alt="App Store"></div>
+                        <div class="footer-store">App Store <span>Hemen İndirin</span> </div>
+                    </a>    
+                </div>
+                <div class="payment">
+                    <ul>
+                        <li> <img src="assets/img/visa.png" alt="visa"> </li>
+                        <li> <img src="assets/img/bank transfer.png" alt="bank transfer"> </li>
+                        <li> <img src="assets/img/american express.png" alt="american express"> </li>
+                        <li> <img src="assets/img/master card.png" alt="master card"> </li>
+                        <li> <img src="assets/img/shopify.png" alt="shopify"> </li>
+                        <li> <img src="assets/img/maestro.png" alt="maestro"> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="footer-menu-area">
+                    <div class="footer-menu">
+                        <ul>
+                            <li> <a href="hakkimizda.html">Hakkımızda</a> </li>
+                            <li> <a href="iletisim.html">İletişim</a></li>
+                        </ul>
+                    </div>
+                    <div class="copyright">
+                        <ul>
+                            <li> <i class="flaticon-security"></i> 128Bit SSL Güvenli Ödeme </li>
+                            <li> <i class="flaticon-medal"></i> ISO 22000 Gıda Güvenliği </li>
+                        </ul>
+                        <div>Appmarkt © 2020 Tüm hakları saklıdır.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footer end -->
+
+	
+	    
+	<!-- Jquery JavaScript -->
+	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+
+	<!-- Bootstrap JavaScript -->
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Owl Slider -->
+    <script src="assets/slider/owl.carousel.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            //owl slider
+
+          $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            responsiveClass: true,
+            responsive: {
+              0: {
+                items: 2,
+                nav: true,
+                margin: 10
+              },
+              600: {
+                items: 3,
+                nav: false
+              },
+              1000: {
+                items: 6,
+                nav: true,
+                loop: false,
+                margin: 10
+              }
+            }
+          })
+        });
+      </script>
+    
+      <script>
+          //mobile menu
+          function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+            }
+
+            function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+            }
+      </script>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 09/12/2020 10:17
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-shopping-cart:before { content: "\f100"; }
+.flaticon-down-arrow:before { content: "\f101"; }
+.flaticon-user:before { content: "\f102"; }
+.flaticon-security:before { content: "\f103"; }
+.flaticon-save-money:before { content: "\f104"; }
+.flaticon-shopping-cart-1:before { content: "\f105"; }
+.flaticon-grocery:before { content: "\f106"; }
+.flaticon-arrow-point-to-right:before { content: "\f107"; }
+.flaticon-right-arrow-angle:before { content: "\f108"; }
+.flaticon-left-arrow-line-symbol:before { content: "\f109"; }
+.flaticon-left-arrow:before { content: "\f10a"; }
+.flaticon-navigate-up-arrow:before { content: "\f10b"; }
+.flaticon-arrow-down-sign-to-navigate:before { content: "\f10c"; }
+.flaticon-paper-plane:before { content: "\f10d"; }
+.flaticon-medal:before { content: "\f10e"; }
+.flaticon-mail:before { content: "\f10f"; }
+.flaticon-phone-call:before { content: "\f110"; }
+.flaticon-location:before { content: "\f111"; }
+.flaticon-upstairs:before { content: "\f112"; }
+.flaticon-group:before { content: "\f113"; }
+.flaticon-gift:before { content: "\f114"; }
+.flaticon-ecommerce:before { content: "\f115"; }
+.flaticon-online-order:before { content: "\f116"; }
+.flaticon-facebook-1:before { content: "\f117"; }
+.flaticon-twitter-1:before { content: "\f118"; }
+.flaticon-linkedin-1:before { content: "\f119"; }
+.flaticon-instagram-1:before { content: "\f11a"; }
+    
+    $font-Flaticon-shopping-cart: "\f100";
+    $font-Flaticon-down-arrow: "\f101";
+    $font-Flaticon-user: "\f102";
+    $font-Flaticon-security: "\f103";
+    $font-Flaticon-save-money: "\f104";
+    $font-Flaticon-shopping-cart-1: "\f105";
+    $font-Flaticon-grocery: "\f106";
+    $font-Flaticon-arrow-point-to-right: "\f107";
+    $font-Flaticon-right-arrow-angle: "\f108";
+    $font-Flaticon-left-arrow-line-symbol: "\f109";
+    $font-Flaticon-left-arrow: "\f10a";
+    $font-Flaticon-navigate-up-arrow: "\f10b";
+    $font-Flaticon-arrow-down-sign-to-navigate: "\f10c";
+    $font-Flaticon-paper-plane: "\f10d";
+    $font-Flaticon-medal: "\f10e";
+    $font-Flaticon-mail: "\f10f";
+    $font-Flaticon-phone-call: "\f110";
+    $font-Flaticon-location: "\f111";
+    $font-Flaticon-upstairs: "\f112";
+    $font-Flaticon-group: "\f113";
+    $font-Flaticon-gift: "\f114";
+    $font-Flaticon-ecommerce: "\f115";
+    $font-Flaticon-online-order: "\f116";
+    $font-Flaticon-facebook-1: "\f117";
+    $font-Flaticon-twitter-1: "\f118";
+    $font-Flaticon-linkedin-1: "\f119";
+    $font-Flaticon-instagram-1: "\f11a";
